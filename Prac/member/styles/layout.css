@@ -24,7 +24,7 @@
     justify-content: space-around;
 }
 
-#id, #pw, input[type="button"] {
+#id, #pw, input[type="button"], #old_pw, #new_pw {
     border-style: solid;
 }
 

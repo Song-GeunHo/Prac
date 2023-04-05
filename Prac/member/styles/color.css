@@ -6,7 +6,7 @@ body {
     background-color: white;
 }
 
-#id, #pw {
+#id, #pw, #old_pw, #new_pw {
     background-color: white;
     border-color: #DFDFDF;
 }

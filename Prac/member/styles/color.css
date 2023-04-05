@@ -1,0 +1,29 @@
+body {
+    background-color: #F9FAFB;
+}
+
+#form_wrap {
+    background-color: white;
+}
+
+#id, #pw {
+    background-color: white;
+    border-color: #DFDFDF;
+}
+
+.button {
+    color: white;
+    background-color: black;
+}
+
+.button:hover {
+    background-color: #313131;
+}
+
+a {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}

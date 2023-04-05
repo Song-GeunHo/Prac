@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+#all_wrap {
+    width: 600px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+#form_wrap {
+    width: 100%;
+    height: 700px;
+    padding: 50px;
+    border-radius: 5%;
+}
+
+#inner_wrap {
+    width: 320px;
+    margin: 0 auto;
+}
+
+figure {
+    width: 200px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+figure img {
+    width: 100%;
+    height: auto;
+}
+
+li img {
+   width: 50px; 
+   height: 50px;
+}
+
+input {
+    width: 100%;
+    height: 45px;
+    border-radius: 5px;
+}
+
+#id, #pw {
+    padding-left: 10px;
+}
+
+.button {
+    margin-top: 20px;
+    font-weight: 800;
+}
+
+#keep_logIn {
+    width: 12px;
+    height: 12px;
+}
+
+label {
+    height: 100px;
+}
+
+#login h3 {
+    font-size: .9em;
+    margin-bottom: 5px;
+}
+
+#login_opt {
+    font-size: 1em;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+#login_opt a span:hover {
+    font-weight: 600;
+}
+
+ul {
+margin-top: 25px;
+margin-bottom: 70px;
+}
+
+ul img {
+    border-radius: 50%;
+}
+
+#login_ul_wrap img:hover {
+    box-shadow: 0 8px 10px 0 rgb(215, 215, 215);
+}
+
+p span {
+    font-weight: 500;
+    padding-left: 15px;
+}
+
+#sign_wrap {
+    margin-top: 100px;
+}

@@ -1,0 +1,82 @@
+#all_wrap {
+    display: flex;
+    align-items: center;
+}
+
+#form_wrap, p {
+    text-align: center;
+}
+
+#login_opt {
+    display: flex;
+    justify-content: space-between;
+}
+
+#login {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+}
+
+#contents {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#id, #pw, input[type="button"] {
+    border-style: solid;
+}
+
+#id:disabled, #pw:disabled {
+    border-style: none;
+}
+
+.button,
+#login_opt label,
+li img {
+    cursor: pointer;
+}
+
+#login_ul_wrap::before {
+    content: "SNS로 간편하게 시작하기";
+    display: block;
+    text-align: center;
+    cursor: text;
+}
+
+#inner_wrap>p {
+    text-align: center;
+}
+
+#logOut_btn {
+    display: none;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p span {
+    text-decoration: underline;
+}
+
+img {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}

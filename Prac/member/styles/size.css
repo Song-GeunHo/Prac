@@ -49,7 +49,7 @@ input {
     border-radius: 5px;
 }
 
-#id, #pw, #old_pw, #new_pw {
+#id, #pw, #old_pw, #new_pw, #new_name, #new_tel {
     padding-left: 10px;
 }
 
@@ -102,4 +102,18 @@ p span {
 
 #sign_wrap {
     margin-top: 100px;
+}
+
+#hide_tel {
+    padding-left: 15px;
+}
+
+#input_pw {
+    width: 80%;
+    padding-left: 15px;
+}
+
+#check_pw {
+    width: 18%;
+    height: 40px;
 }

@@ -6,7 +6,7 @@ body {
     background-color: white;
 }
 
-#id, #pw, #old_pw, #new_pw {
+#id, #pw, #old_pw, #new_pw, #new_name, #new_tel {
     background-color: white;
     border-color: #DFDFDF;
 }
@@ -26,4 +26,18 @@ a {
 
 a:visited {
     color: black;
+}
+
+#check_pw {
+    color: white;
+    background-color: black;
+    border-color: #DFDFDF;
+}
+
+#input_pw:disabled {
+    background-color: #dddddd;
+}
+
+#hide_tel:disabled {
+    background-color: white;
 }

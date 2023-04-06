@@ -2,13 +2,11 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
     <style>
         @import url('styles/font.css');
         @import url('styles/layout.css');
         @import url('styles/size.css');
         @import url('styles/color.css');
-
     </style>
     <script src="scripts/script.js"></script>
 </head>
@@ -26,13 +24,16 @@
                             <label>
                                 <h3>아이디</h3>
                                 <input type="email" id="id" placeholder="아이디 입력" required minlength="3">
-                                <span class="error" aria-live="polite"></span>
                             </label>
                             <br><br>
                             <label>
                                 <h3 id="info_title">비밀번호</h3>
                                 <input type="password" id="pw" placeholder="비밀번호 입력" required minlength="3">
-                                <span class="error" aria-live="polite"></span>
+                            </label>
+                            <br><br>
+                            <label id="hide_info">
+                                <h3>전화번호</h3>
+                                <input type="text" id="hide_tel" disabled>
                             </label>
                         </div>
                         <input type="submit" class="button" id="logIn_btn" value="로그인">
@@ -40,7 +41,7 @@
                     </div>
                     <div id="login_opt">
                         <span>
-                            <a href="changeInfo.html">회원정보 변경</a> / <a href="#" onclick="move_pw_change();">비밀번호 변경</a>
+                            <a href="#" id="info_change" onclick="move_change(this);">회원정보 변경</a> / <a href="#" id="pw_change" onclick="move_change(this);">비밀번호 변경</a>
                         </span>
                     </div>
                 </div>

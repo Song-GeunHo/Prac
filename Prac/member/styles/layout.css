@@ -24,11 +24,11 @@
     justify-content: space-around;
 }
 
-#id, #pw, input[type="button"], #old_pw, #new_pw {
+#id, #pw, input[type="button"], #old_pw, #new_pw, #new_name, #new_tel {
     border-style: solid;
 }
 
-#id:disabled, #pw:disabled {
+#id:disabled, #pw:disabled, #hide_tel:disabled {
     border-style: none;
 }
 
@@ -79,4 +79,8 @@ img {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none
+}
+
+#hide_info {
+    display: none;
 }

@@ -1,0 +1,23 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <style>
+        @import url('../../styles/myTheme.css');
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('a').click(function (event) {
+                alert('click');
+                event.preventDefault();
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <a href="http://naver.com">Naver</a>
+</body>
+
+</html>

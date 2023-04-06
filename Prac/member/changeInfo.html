@@ -1,0 +1,47 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <style>
+        @import url('styles/font.css');
+        @import url('styles/layout.css');
+        @import url('styles/size.css');
+        @import url('styles/color.css');
+    </style>
+    <script src="scripts/script.js"></script>
+</head>
+
+<body>
+    <div id="all_wrap">
+        <div id="form_wrap">
+            <a href="main.html">
+                <figure><img src="images/ARTMU.png"></figure>
+            </a>
+            <form id="login" action="main.html" onsubmit="return change_info()" novalidate>
+                <div id="inner_wrap">
+                    <div id="contents">
+                        <div id="user_info">
+                            <input type="password" id="input_pw" placeholder="비밀번호 입력" minlength="3">
+                            <button type="button" id="check_pw" onclick="unlock_input();">확인</button>
+                            <br><br>
+                            <label>
+                                <h3>이름</h3>
+                                <p><script>document.write(sessionStorage.getItem("NAME"));</script></p><br>
+                                <input type="text" id="new_name" minlength="3" disabled>
+                            </label>
+                            <br><br>
+                            <label>
+                                <h3>전화번호</h3>
+                                <p><script>document.write(sessionStorage.getItem("TEL"));</script></p><br>
+                                <input type="text" id="new_tel" minlength="3" disabled>
+                            </label>
+                        </div>
+                        <input type="submit" class="button" value="회원정보 변경">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

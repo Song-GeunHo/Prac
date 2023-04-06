@@ -1,0 +1,59 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <style>
+        @import url('../../styles/myTheme.css');
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#box').css({
+                width: 400,
+                height: 400,
+                margin: "30px auto",
+                background: 'red'
+            }).on({
+                click: function () {
+                    $(this).css('background', 'orange');
+                },
+                mouseenter: function () {
+                    $(this).css('background', 'purple');
+                },
+                mouseleave: function () {
+                    $(this).css('background', 'red');
+                }
+            });
+        });
+
+        $(document).ready(function () {
+            $('#circle').css({
+                width: 400,
+                height: 400,
+                margin: "0 auto",
+                borderRadius: "50%",
+                background: 'orange'
+            }).on({
+                click: function () {
+                    $(this).css('background', 'red');
+                },
+                mouseenter: function () {
+                    $(this).css('background', 'blue');
+                },
+                mouseleave: function () {
+                    $(this).css('background', 'orange');
+                },
+                dblclick : function() {
+                    $(this).css('background', 'yellow');
+                }
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div id="box"></div>
+    <div id="circle"></div>
+</body>
+
+</html>
